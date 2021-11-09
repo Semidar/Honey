@@ -1,0 +1,1050 @@
+@import 'fonts';
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+    font-family: 'kodchasan';
+}
+// header start
+header{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .logo{
+        margin-left: 225px;
+        margin-right: 0px;
+        .burger{
+            display: none;
+        }    
+    }
+    .menu{
+        margin-right: 0px;
+        margin-left: 0px;
+        a{
+            margin-right: 40px;
+            text-decoration: none;
+            color: black;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 23px;
+        }
+        a:last-child{
+            margin-right: 0px;
+            
+        }
+        a:hover{
+            border-bottom: 2px solid #E58311;
+        }
+    }
+}
+// header end
+
+// main start
+.main-section{
+    max-width: 1200px;
+    border-radius: 25px;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    background: linear-gradient(76.02deg, #FF9D2D 1.66%, #FFD877 93.21%);
+    .main-substrate{
+        display: flex;
+        .substrate{
+            width: 1000px;
+            height: 440px;
+            background-image: url('../img/main_logo_big.png');
+            background-size: 1000px auto;
+            background-repeat: no-repeat;
+        }
+        .honey-small-pic{
+            width: 200px;
+            height: 320px;
+            background-image: url('../img/main_honey.png');
+            background-repeat: no-repeat;
+            margin: 0px;
+        }
+    }
+    .main-content{
+        display: flex;
+        margin-top: -350px;
+        .title{
+            color: black;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 100px;
+            line-height: 130px;
+            margin-left: 170px;
+            display: flex;
+            flex-direction: column;
+            .licking{
+                margin-left: 120px;
+            }
+
+            .bee{
+                width: 189px;
+                height: 129px;
+                background-image: url('../img/main_bee.png');
+                background-size: 189px auto;
+                background-repeat: no-repeat;
+                margin: 0;
+                border-bottom: 1px solid rgb(0, 0, 0);
+                .honey{
+                    margin-left: 220px;
+                }
+            }
+            .panel{
+                button{
+                    width: 180px;
+                    height: 65px;
+                    background-color: rgba(0, 0, 0, 0);
+                    outline: none;
+                    border: 2px solid black;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 18px;
+                    line-height: 160%;
+                }
+                button:hover{
+                    background-color: black;
+                    color: white;
+                }
+            }
+        }
+        .honey-bottle{
+            width: 600px;
+            height: 650px;
+            background-image: url('../img/main_img.png');
+            background-size: 600px auto;
+            background-repeat: no-repeat;
+        }
+    }
+}
+// main end
+
+//shops start
+.shops{
+    max-width: 950px;
+    margin: 0 auto;
+    margin-top: 50px;
+    .shops-title{
+        font-style: normal;
+        font-weight: bold;
+        font-size: 45px;
+        line-height: 160%;
+        margin-bottom: 25px;
+    }
+    .shop-links{
+        display: flex;
+        justify-content: space-between;
+        a{
+            display: block;
+            margin: 0;
+        }
+        .luxotica{
+            img{
+                width: 145px;
+                height: 34px;
+            }
+        }
+        .miu-miu{
+            img{
+                width: 230px;
+                height: 34px;
+            }
+        }
+        .dunkin{
+            img{
+                width: 190px;
+                height: 34px;
+            }
+        }
+        .burberry{
+            img{
+                width: 260px;
+                height: 34px;
+            }
+        }
+    }
+}
+//shops end
+
+// content start
+.content{
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    .block{
+        display: flex;
+        justify-content: space-between;
+        .image{
+            width: 600px;
+            height: 680px;
+            background-image: url('../img/section1.png');
+            background-size: 600px auto;
+            background-repeat: no-repeat;
+        }
+        .second-image{
+            width: 600px;
+            height: 680px;
+            background-image: url('../img/section2.png');
+            background-size: 600px auto;
+            background-repeat: no-repeat;
+        }
+        .text{
+            width: 500px;
+            align-self: center;
+            .content-title{
+                font-style: normal;
+                font-weight: bold;
+                font-size: 45px;
+                line-height: 145%;
+                margin-bottom: 30px;
+            }
+            .content-text{
+                font-style: normal;
+                font-weight: 600;
+                font-size: 22px;
+                line-height: 160%;
+                margin-bottom: 60px;
+            }
+            .content-btn{
+                width: 185px;
+                height: 60px;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 18px;
+                line-height: 160%;
+                background-color: white;
+                color: #E58311;
+                ;
+                border: 2px solid #E58311;
+            }
+            .content-btn:hover{
+                color: white;
+                background-color: #E58311;
+            }
+        }
+    }
+}
+// content end
+
+// product start
+.our-products{
+    max-width: 950px;
+    margin: 0 auto;
+    .product-title{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 50px;
+        p{
+            font-style: normal;
+            font-weight: bold;
+            font-size: 45px;
+            align-self: flex-end;
+            margin: 0;
+            padding: 0;
+        }
+        a{
+            font-style: normal;
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 160%;
+            color: #E58211;
+            align-self: flex-end;
+            margin: 0;
+        }
+    }
+    .product{
+        display: flex;
+        justify-content: space-between;
+        .product-card{
+            margin: 0;
+            width: 450px;
+            background-color: #e5821134;
+            display: flex;
+            justify-content: space-between;
+            padding: 25px 0px 25px 30px;
+            .about-product{
+                margin: 0;
+                width: 200px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                .title{
+                    font-weight: 600;
+                    font-size: 22px;
+                    line-height: 140%;
+                    margin: 0;
+                    margin-bottom: 20px;
+                }
+                .text{
+                    font-weight: 600;
+                    font-size: 10px;
+                    line-height: 160%;
+                    margin-bottom: 20px;
+                }
+                button{
+                    width: 185px;
+                    height: 60px;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 18px;
+                    line-height: 160%;
+                    background-color: white;
+                    color: #E58311;
+                    ;
+                    border: 2px solid #E58311;
+                    margin: 0;
+                    background-color: #FAE6CE;
+                }
+                button:hover{
+                    color: white;
+                    background-color: #E58311; 
+                }
+            }
+            .first-img{
+               margin: 0;
+               width: 200px;
+               height: 200px;
+               background-image: url('../img/our1.png'); 
+            }
+            .second-img{
+               margin: 0;
+               width: 200px;
+               height: 200px;
+               background-image: url('../img/our2.png');
+               background-repeat: no-repeat; 
+               background-position: right;
+               margin-right: 25px;
+            }
+            
+        }
+    }
+    
+}
+// product end
+
+// form start
+.register-form{
+    margin: 0 auto;
+    max-width: 600px;
+    margin-top: 40px;
+    border-radius: 25px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border: 2px solid #E58311;
+    .form-title{
+        text-align: center;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 45px;
+        line-height: 160%;
+        margin-bottom: 25px; 
+    }
+    input{
+        text-align: center;
+        display: block;
+        margin-bottom: 15px;
+        border-radius: 25px;
+        outline: none;
+        border: none;
+        border-bottom: 2px solid #E58311;
+    }
+    label{
+        width: 100px;
+        text-align: center;
+        display: block;
+        margin-bottom: 10px;
+    }
+    .btn{
+        margin-top: 40px;
+        width: 180px;
+        height: 65px;
+        color: #E58311;
+        background-color: white;
+        outline: none;
+        border: 2px solid #E58311;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 160%;
+    }
+    .btn:hover{
+        background-color: #E58311;
+        color: white;
+    }
+    .valid{
+        border-bottom: 2px solid #23e511;
+    }
+    .invalid{
+        border-bottom: 2px solid #e51111;
+    }
+}
+// form end
+
+// footer-start
+footer{
+    margin: 0;
+    margin-top: 130px;
+    padding: 45px 0px;
+    background: linear-gradient(76.02deg, #FF9D2D 1.66%, #FFD877 93.21%);
+    .footer-frame{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 950px;
+    }
+    .black-logo{
+        margin: 0;
+        margin-right: 25px;
+        width: 65px;
+        height: 30px;
+        background-image: url('../img/mian_logo_black.png');
+        background-repeat: no-repeat;
+    }
+    .social{
+        display: flex;
+        justify-content: space-between;
+        margin: 0;
+        margin-right: 100px;
+        .facebook{
+            margin-right: 10px;
+            width: 30px;
+            height: 25px;
+            background-image: url('../img/facebook.png');
+            background-repeat: no-repeat;
+            background-position: right;
+        }
+        .twitter{
+            margin-right: 10px;
+            width: 30px;
+            height: 25px;
+            background-image: url('../img/twitter.png');
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        .google{
+            margin-right: 10px;
+            width: 30px;
+            height: 25px;
+            background-image: url('../img/google.png');
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        .pinterest{
+            width: 30px;
+            height: 25px;
+            background-image: url('../img/pinterest.png');
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+    }
+    .store{
+        margin: 0;
+        display: flex;
+        .google-play{
+            margin-right: 20px;
+            width: 140px;
+            height: 42px;
+            background-image: url('../img/google_play.png');
+        }
+        .app-store{
+            width: 140px;
+            height: 42px;
+            background-image: url('../img/app_store.png');
+        }
+    }
+    .footer-text{
+        margin: 0;
+        margin-right: 60px;
+        width: 260px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 10px;
+        line-height: 160%;
+    }
+}
+// footer-end
+@media (max-width: 1280px){
+    // header start
+    header{
+        max-width: 800px;
+        .logo{
+            margin-left: 125px;
+        }
+    }
+    // header end
+    // main start
+    .main-section{
+        max-width: 800px;
+        padding-top: 90px;
+        padding-bottom: 25px;
+        .main-substrate{
+            .substrate{
+                width: 600px;
+                height: 300px;
+                background-size: 580px auto;
+                background-position: 0 0;
+            }
+            .honey-small-pic{
+                width: 130px;
+                height: 220px;
+                background-size: 100px auto;
+            }
+        }
+        .main-content{
+            margin-top: -235px;
+            .title{
+                font-size: 55px;
+                line-height: 70px;
+                .finger{
+                    margin: 0;
+                }
+                .licking{
+                    margin-left: 55px;
+                }
+                .bee{
+                    width: 110px;
+                    height: 85px;
+                    background-size: 120px auto;
+                    .honey{
+                        margin-left: 130px;
+                    }
+                }
+                .panel{
+                    display: flex;
+                    justify-content: space-between;
+                    margin: 0;
+                    margin-top: 20px;
+                    button{
+                        width: 110px;
+                        height: 40px;
+                        font-size: 10px;
+                    }
+                }
+            }
+            .honey-bottle{
+                width: 345px;
+                height: 350px;
+                background-size: 345px auto;
+            }
+        }
+    }
+    // main end
+    //shops start
+    .shops{
+        max-width: 650px;
+        margin-top: 20px;
+        .shops-title{
+            font-size: 35px;
+            line-height: 100%;
+            margin-bottom: 25px;
+        }
+        .shop-links{
+            .luxotica{
+                img{
+                    width: 100px;
+                    height: 24px;
+                }
+            }
+            .miu-miu{
+                img{
+                    width: 120px;
+                    height: 24px;
+                }
+            }
+            .dunkin{
+                img{
+                    width: 120px;
+                    height: 24px;
+                }
+            }
+            .burberry{
+                img{
+                    width: 160px;
+                    height: 24px;
+                }
+            }
+        }
+    }
+    //shops end
+    // content start
+    .content{
+        max-width: 800px;
+        margin-top: 50px;
+        .block{
+            .image{
+                width: 400px;
+                height: 480px;
+                background-size: 400px auto;
+            }
+            .second-image{
+                width: 400px;
+                height: 480px;
+                background-size: 400px auto;
+            }
+        .text{
+            width: 300px;
+            .content-title{
+                font-style: normal;
+                font-weight: bold;
+                font-size: 40px;
+                line-height: 145%;
+                margin-bottom: 30px;
+            }
+            .content-text{
+                font-style: normal;
+                font-weight: 600;
+                font-size: 18px;
+                line-height: 160%;
+                margin-bottom: 60px;
+            }
+            .content-btn{
+                width: 185px;
+                height: 60px;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 18px;
+                line-height: 160%;
+                background-color: white;
+                color: #E58311;
+                ;
+                border: 2px solid #E58311;
+            }
+            .content-btn:hover{
+                color: white;
+                background-color: #E58311;
+            }
+        }
+        }
+    }
+    // content end
+
+    // product start
+    .our-products{
+        max-width: 650px;
+        margin: 0 auto;
+        .product{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            .product-card{
+            margin: 0 auto;
+            margin-bottom: 20px;
+            }
+            button{
+                width: 130px;
+            }
+        }
+    
+    }
+    // product end
+}
+@media (max-width: 1024px){
+    footer{
+        .footer-frame{
+            width: 650px;
+        }
+        .social{
+            flex-direction: column;
+            .facebook{
+                margin: 0;
+                margin-bottom: 10px;
+                background-position: center;
+            }
+            .twitter{
+                margin: 0;
+                margin-bottom: 10px;
+            }
+            .google{
+                margin: 0;
+                margin-bottom: 10px;
+            }
+            .pinterest{
+                margin: 0;
+                margin-bottom: 10px;
+            }
+        }
+        .store{
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            .google-play{
+                margin: 0;
+                margin-bottom: 10px;
+            }
+        }
+        .footer-text{
+            margin: 0;
+        }
+    }
+}
+@media (max-width: 860px){
+    // header start
+    header{
+        max-width: 500px;
+        .logo{
+            margin-left: 75px;
+        }
+        .menu{
+            a{
+                margin-right: 20px;
+                font-size: 12px;
+                line-height: 23px;
+            }
+        }
+    }
+    // header end
+    // main start
+    .main-section{
+        max-width: 500px;
+        padding-top: 50px;
+        padding-bottom: 25px;
+        .main-substrate{
+            .substrate{
+                width: 400px;
+                height: 300px;
+                background-size: 400px auto;
+            }
+            .honey-small-pic{
+                width: 100px;
+                height: 220px;
+                background-size: 80px auto;
+            }
+        }
+        .main-content{
+            margin-top: -255px;
+            .title{
+                font-size: 35px;
+                line-height: 45px;
+                margin-left: 105px;
+                .finger{
+                    margin: 0;
+                }
+                .licking{
+                    margin-left: 30px;
+                }
+                .bee{
+                    width: 80px;
+                    height: 55px;
+                    background-size: 80px auto;
+                    .honey{
+                        margin-left: 95px;
+                    }
+                }
+                .panel{
+                    display: flex;
+                    justify-content: space-between;
+                    margin: 0;
+                    margin-top: 20px;
+                    button{
+                        width: 65px;
+                        height: 35px;
+                        font-size: 8px;
+                    }
+                }
+            }
+            .honey-bottle{
+                width: 220px;
+                height: 210px;
+                background-size: 220px auto;
+            }
+        }
+    }
+    // main end
+    //shops start
+    .shops{
+        max-width: 350px;
+        margin: 0 auto;
+        margin-top: 20px;
+        .shops-title{
+            font-size: 35px;
+            line-height: 100%;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+        .shop-links{
+            flex-direction: column;
+            text-align: center;
+            a{
+                margin-bottom: 10px;
+            }
+        }
+    }
+    //shops end
+    // content start
+    .content{
+        max-width: 500px;
+        margin-top: 50px;
+        .block{
+            flex-direction: column;
+            .image{
+                width: 300px;
+                height: 280px;
+                background-size: 300px auto;
+            }
+            .second-image{
+                width: 300px;
+                height: 300px;
+                background-size: 300px auto;
+            }
+            .text{
+                width: 200px;
+                text-align: center;
+                .content-title{
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 25px;
+                    line-height: 145%;
+                    margin-bottom: 20px;
+                }
+                .content-text{
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 14px;
+                    line-height: 160%;
+                    margin-bottom: 40px;
+                }
+                .content-btn{
+                    margin-bottom: 50px;
+                }
+            }
+        }
+    }
+    // content end
+    // product start
+    .our-products{
+        max-width: 360px;
+        margin: 0 auto;
+        .product-title{
+            flex-direction: column;
+            a{
+               align-self: center; 
+            }
+            p{
+                align-self: center;
+            }
+        }
+        .product{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            .product-card{
+                width: 360px;
+                margin: 0 auto;
+                margin-bottom: 20px;
+                flex-direction: column;
+                .about-product{
+                    margin: 0 auto;
+                    text-align: center;
+                    button{
+                        width: 130px;
+                        margin: 0 auto;
+                        margin-bottom: 20px;
+                    }
+                }
+                .first-img{
+                    margin: 0 auto;
+                    background-position: center;
+
+                 }
+                 .second-img{
+                    margin: 0 auto;
+                    background-repeat: no-repeat; 
+                    background-position: center;
+                 }
+            }
+        }
+    }
+    // product end
+}
+@media (max-width: 767px){
+    // header start
+    header{
+        display: block;
+        text-align: center;
+        .logo{
+            margin: 0;
+            .burger{ 
+                position: relative;
+                display: block;
+                width: 25px;
+                height: 25px;
+                border-radius: 50px;
+                border: 2px solid #FFA234;
+            }
+            .burger span,
+            .burger::before,
+            .burger::after{
+                position: absolute;
+                left: 3px;
+                top: 15px;
+                width: 15px;
+                height: 1px;
+                transition: 0.3s;
+                background-color: #FFA234;
+            }
+            .burger::before,
+            .burger::after{
+                content: '';
+            }
+            .burger::before{
+                top: 5px;
+            }
+            .burger::after{
+                bottom: 0;
+            }
+            .burger span{
+                top: 50%;
+            }
+            .burger.active span{
+                transform: scale(0);
+            }
+            .burger.active::before{
+                transform: rotate(-45deg) translate(-4px, 3px);
+            }
+            .burger.active::after{
+                transform: rotate(45deg);
+                transform: rotate(45deg) translate(-4px, -3px);
+            }
+        }
+        .menu{
+            display: none;
+            flex-direction: column;
+            a{
+                margin: 0;
+            }
+        }
+        .menu.active{
+            display: flex;
+        }
+    }
+    // header end
+    // main start
+    .main-section{
+        max-width: 360px;
+        padding-top: 50px;
+        padding-bottom: 25px;
+        .main-substrate{
+            .substrate{
+                width: 300px;
+                height: 220px;
+                background-size: 290px auto;
+            }
+            .honey-small-pic{
+                width: 80px;
+                height: 130px;
+                background-size: 60px auto;
+            }
+        }
+        .main-content{
+            margin-top: -195px;
+            .title{
+                font-size: 20px;
+                line-height: 25px;
+                margin-left: 95px;
+                .finger{
+                    margin: 0;
+                }
+                .licking{
+                    margin-left: 20px;
+                }
+                .bee{
+                    width: 55px;
+                    height: 40px;
+                    background-size: 55px auto;
+                    .honey{
+                        margin-left: 65px;
+                    }
+                }
+                .panel{
+                    display: flex;
+                    justify-content: space-between;
+                    margin: 0;
+                    margin-top: 20px;
+                    button{
+                        width: 40px;
+                        height: 25px;
+                        font-size: 5px;
+                    }
+                }
+            }
+            .honey-bottle{
+                width: 135px;
+                height: 135px;
+                background-size: 135px auto;
+            }
+        }
+    }
+    // main end
+    //shops start
+    .shops{
+        .shops-title{
+            font-size: 25px;
+        }
+        .shop-links{
+            .luxotica{
+                img{
+                    width: 80px;
+                    height: 19px;
+                }
+            }
+            .miu-miu{
+                img{
+                    width: 100px;
+                    height: 19px;
+                }
+            }
+            .dunkin{
+                img{
+                    width: 100px;
+                    height: 19px;
+                }
+            }
+            .burberry{
+                img{
+                    width: 140px;
+                    height: 19px;
+                }
+            }
+        }
+    }
+    //shops end
+    // form start
+    .register-form{
+        max-width: 360px;
+    
+        .form-title{
+            font-size: 35px; 
+        }
+    }    
+    // form end
+    // footer-start
+    footer{
+        .footer-frame{
+            width: 360px;
+            flex-direction: column;
+        }
+        .black-logo{
+            margin: 0;
+            margin-bottom: 20px;
+        }
+        .social{
+            flex-direction: row;
+            margin: 0 auto;
+            margin-bottom: 20px;
+        }
+        .footer-text{
+            margin: 0;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+    }
+    // footer-end
+}
+
+

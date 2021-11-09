@@ -1,0 +1,1144 @@
+@font-face {
+  font-family: 'kodchasan';
+  src: url("../font/Kodchasan-Regular.ttf");
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0 auto;
+  font-family: 'kodchasan';
+}
+
+header {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .logo {
+  margin-left: 225px;
+  margin-right: 0px;
+}
+
+header .logo .burger {
+  display: none;
+}
+
+header .menu {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+header .menu a {
+  margin-right: 40px;
+  text-decoration: none;
+  color: black;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+}
+
+header .menu a:last-child {
+  margin-right: 0px;
+}
+
+header .menu a:hover {
+  border-bottom: 2px solid #E58311;
+}
+
+.main-section {
+  max-width: 1200px;
+  border-radius: 25px;
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background: linear-gradient(76.02deg, #FF9D2D 1.66%, #FFD877 93.21%);
+}
+
+.main-section .main-substrate {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main-section .main-substrate .substrate {
+  width: 1000px;
+  height: 440px;
+  background-image: url("../img/main_logo_big.png");
+  background-size: 1000px auto;
+  background-repeat: no-repeat;
+}
+
+.main-section .main-substrate .honey-small-pic {
+  width: 200px;
+  height: 320px;
+  background-image: url("../img/main_honey.png");
+  background-repeat: no-repeat;
+  margin: 0px;
+}
+
+.main-section .main-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: -350px;
+}
+
+.main-section .main-content .title {
+  color: black;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 100px;
+  line-height: 130px;
+  margin-left: 170px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.main-section .main-content .title .licking {
+  margin-left: 120px;
+}
+
+.main-section .main-content .title .bee {
+  width: 189px;
+  height: 129px;
+  background-image: url("../img/main_bee.png");
+  background-size: 189px auto;
+  background-repeat: no-repeat;
+  margin: 0;
+  border-bottom: 1px solid black;
+}
+
+.main-section .main-content .title .bee .honey {
+  margin-left: 220px;
+}
+
+.main-section .main-content .title .panel button {
+  width: 180px;
+  height: 65px;
+  background-color: rgba(0, 0, 0, 0);
+  outline: none;
+  border: 2px solid black;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 160%;
+}
+
+.main-section .main-content .title .panel button:hover {
+  background-color: black;
+  color: white;
+}
+
+.main-section .main-content .honey-bottle {
+  width: 600px;
+  height: 650px;
+  background-image: url("../img/main_img.png");
+  background-size: 600px auto;
+  background-repeat: no-repeat;
+}
+
+.shops {
+  max-width: 950px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.shops .shops-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 45px;
+  line-height: 160%;
+  margin-bottom: 25px;
+}
+
+.shops .shop-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.shops .shop-links a {
+  display: block;
+  margin: 0;
+}
+
+.shops .shop-links .luxotica img {
+  width: 145px;
+  height: 34px;
+}
+
+.shops .shop-links .miu-miu img {
+  width: 230px;
+  height: 34px;
+}
+
+.shops .shop-links .dunkin img {
+  width: 190px;
+  height: 34px;
+}
+
+.shops .shop-links .burberry img {
+  width: 260px;
+  height: 34px;
+}
+
+.content {
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+
+.content .block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.content .block .image {
+  width: 600px;
+  height: 680px;
+  background-image: url("../img/section1.png");
+  background-size: 600px auto;
+  background-repeat: no-repeat;
+}
+
+.content .block .second-image {
+  width: 600px;
+  height: 680px;
+  background-image: url("../img/section2.png");
+  background-size: 600px auto;
+  background-repeat: no-repeat;
+}
+
+.content .block .text {
+  width: 500px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.content .block .text .content-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 45px;
+  line-height: 145%;
+  margin-bottom: 30px;
+}
+
+.content .block .text .content-text {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 160%;
+  margin-bottom: 60px;
+}
+
+.content .block .text .content-btn {
+  width: 185px;
+  height: 60px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 160%;
+  background-color: white;
+  color: #E58311;
+  border: 2px solid #E58311;
+}
+
+.content .block .text .content-btn:hover {
+  color: white;
+  background-color: #E58311;
+}
+
+.our-products {
+  max-width: 950px;
+  margin: 0 auto;
+}
+
+.our-products .product-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.our-products .product-title p {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 45px;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  margin: 0;
+  padding: 0;
+}
+
+.our-products .product-title a {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 160%;
+  color: #E58211;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  margin: 0;
+}
+
+.our-products .product {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.our-products .product .product-card {
+  margin: 0;
+  width: 450px;
+  background-color: #e5821134;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 25px 0px 25px 30px;
+}
+
+.our-products .product .product-card .about-product {
+  margin: 0;
+  width: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.our-products .product .product-card .about-product .title {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 140%;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.our-products .product .product-card .about-product .text {
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 160%;
+  margin-bottom: 20px;
+}
+
+.our-products .product .product-card .about-product button {
+  width: 185px;
+  height: 60px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 160%;
+  background-color: white;
+  color: #E58311;
+  border: 2px solid #E58311;
+  margin: 0;
+  background-color: #FAE6CE;
+}
+
+.our-products .product .product-card .about-product button:hover {
+  color: white;
+  background-color: #E58311;
+}
+
+.our-products .product .product-card .first-img {
+  margin: 0;
+  width: 200px;
+  height: 200px;
+  background-image: url("../img/our1.png");
+}
+
+.our-products .product .product-card .second-img {
+  margin: 0;
+  width: 200px;
+  height: 200px;
+  background-image: url("../img/our2.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  margin-right: 25px;
+}
+
+.register-form {
+  margin: 0 auto;
+  max-width: 600px;
+  margin-top: 40px;
+  border-radius: 25px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  border: 2px solid #E58311;
+}
+
+.register-form .form-title {
+  text-align: center;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 45px;
+  line-height: 160%;
+  margin-bottom: 25px;
+}
+
+.register-form input {
+  text-align: center;
+  display: block;
+  margin-bottom: 15px;
+  border-radius: 25px;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid #E58311;
+}
+
+.register-form label {
+  width: 100px;
+  text-align: center;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.register-form .btn {
+  margin-top: 40px;
+  width: 180px;
+  height: 65px;
+  color: #E58311;
+  background-color: white;
+  outline: none;
+  border: 2px solid #E58311;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 160%;
+}
+
+.register-form .btn:hover {
+  background-color: #E58311;
+  color: white;
+}
+
+.register-form .valid {
+  border-bottom: 2px solid #23e511;
+}
+
+.register-form .invalid {
+  border-bottom: 2px solid #e51111;
+}
+
+footer {
+  margin: 0;
+  margin-top: 130px;
+  padding: 45px 0px;
+  background: linear-gradient(76.02deg, #FF9D2D 1.66%, #FFD877 93.21%);
+}
+
+footer .footer-frame {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 950px;
+}
+
+footer .black-logo {
+  margin: 0;
+  margin-right: 25px;
+  width: 65px;
+  height: 30px;
+  background-image: url("../img/mian_logo_black.png");
+  background-repeat: no-repeat;
+}
+
+footer .social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0;
+  margin-right: 100px;
+}
+
+footer .social .facebook {
+  margin-right: 10px;
+  width: 30px;
+  height: 25px;
+  background-image: url("../img/facebook.png");
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+footer .social .twitter {
+  margin-right: 10px;
+  width: 30px;
+  height: 25px;
+  background-image: url("../img/twitter.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+footer .social .google {
+  margin-right: 10px;
+  width: 30px;
+  height: 25px;
+  background-image: url("../img/google.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+footer .social .pinterest {
+  width: 30px;
+  height: 25px;
+  background-image: url("../img/pinterest.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+footer .store {
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer .store .google-play {
+  margin-right: 20px;
+  width: 140px;
+  height: 42px;
+  background-image: url("../img/google_play.png");
+}
+
+footer .store .app-store {
+  width: 140px;
+  height: 42px;
+  background-image: url("../img/app_store.png");
+}
+
+footer .footer-text {
+  margin: 0;
+  margin-right: 60px;
+  width: 260px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 160%;
+}
+
+@media (max-width: 1280px) {
+  header {
+    max-width: 800px;
+  }
+  header .logo {
+    margin-left: 125px;
+  }
+  .main-section {
+    max-width: 800px;
+    padding-top: 90px;
+    padding-bottom: 25px;
+  }
+  .main-section .main-substrate .substrate {
+    width: 600px;
+    height: 300px;
+    background-size: 580px auto;
+    background-position: 0 0;
+  }
+  .main-section .main-substrate .honey-small-pic {
+    width: 130px;
+    height: 220px;
+    background-size: 100px auto;
+  }
+  .main-section .main-content {
+    margin-top: -235px;
+  }
+  .main-section .main-content .title {
+    font-size: 55px;
+    line-height: 70px;
+  }
+  .main-section .main-content .title .finger {
+    margin: 0;
+  }
+  .main-section .main-content .title .licking {
+    margin-left: 55px;
+  }
+  .main-section .main-content .title .bee {
+    width: 110px;
+    height: 85px;
+    background-size: 120px auto;
+  }
+  .main-section .main-content .title .bee .honey {
+    margin-left: 130px;
+  }
+  .main-section .main-content .title .panel {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin: 0;
+    margin-top: 20px;
+  }
+  .main-section .main-content .title .panel button {
+    width: 110px;
+    height: 40px;
+    font-size: 10px;
+  }
+  .main-section .main-content .honey-bottle {
+    width: 345px;
+    height: 350px;
+    background-size: 345px auto;
+  }
+  .shops {
+    max-width: 650px;
+    margin-top: 20px;
+  }
+  .shops .shops-title {
+    font-size: 35px;
+    line-height: 100%;
+    margin-bottom: 25px;
+  }
+  .shops .shop-links .luxotica img {
+    width: 100px;
+    height: 24px;
+  }
+  .shops .shop-links .miu-miu img {
+    width: 120px;
+    height: 24px;
+  }
+  .shops .shop-links .dunkin img {
+    width: 120px;
+    height: 24px;
+  }
+  .shops .shop-links .burberry img {
+    width: 160px;
+    height: 24px;
+  }
+  .content {
+    max-width: 800px;
+    margin-top: 50px;
+  }
+  .content .block .image {
+    width: 400px;
+    height: 480px;
+    background-size: 400px auto;
+  }
+  .content .block .second-image {
+    width: 400px;
+    height: 480px;
+    background-size: 400px auto;
+  }
+  .content .block .text {
+    width: 300px;
+  }
+  .content .block .text .content-title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 145%;
+    margin-bottom: 30px;
+  }
+  .content .block .text .content-text {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 160%;
+    margin-bottom: 60px;
+  }
+  .content .block .text .content-btn {
+    width: 185px;
+    height: 60px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 160%;
+    background-color: white;
+    color: #E58311;
+    border: 2px solid #E58311;
+  }
+  .content .block .text .content-btn:hover {
+    color: white;
+    background-color: #E58311;
+  }
+  .our-products {
+    max-width: 650px;
+    margin: 0 auto;
+  }
+  .our-products .product {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .our-products .product .product-card {
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  .our-products .product button {
+    width: 130px;
+  }
+}
+
+@media (max-width: 1024px) {
+  footer .footer-frame {
+    width: 650px;
+  }
+  footer .social {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  footer .social .facebook {
+    margin: 0;
+    margin-bottom: 10px;
+    background-position: center;
+  }
+  footer .social .twitter {
+    margin: 0;
+    margin-bottom: 10px;
+  }
+  footer .social .google {
+    margin: 0;
+    margin-bottom: 10px;
+  }
+  footer .social .pinterest {
+    margin: 0;
+    margin-bottom: 10px;
+  }
+  footer .store {
+    margin: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  footer .store .google-play {
+    margin: 0;
+    margin-bottom: 10px;
+  }
+  footer .footer-text {
+    margin: 0;
+  }
+}
+
+@media (max-width: 860px) {
+  header {
+    max-width: 500px;
+  }
+  header .logo {
+    margin-left: 75px;
+  }
+  header .menu a {
+    margin-right: 20px;
+    font-size: 12px;
+    line-height: 23px;
+  }
+  .main-section {
+    max-width: 500px;
+    padding-top: 50px;
+    padding-bottom: 25px;
+  }
+  .main-section .main-substrate .substrate {
+    width: 400px;
+    height: 300px;
+    background-size: 400px auto;
+  }
+  .main-section .main-substrate .honey-small-pic {
+    width: 100px;
+    height: 220px;
+    background-size: 80px auto;
+  }
+  .main-section .main-content {
+    margin-top: -255px;
+  }
+  .main-section .main-content .title {
+    font-size: 35px;
+    line-height: 45px;
+    margin-left: 105px;
+  }
+  .main-section .main-content .title .finger {
+    margin: 0;
+  }
+  .main-section .main-content .title .licking {
+    margin-left: 30px;
+  }
+  .main-section .main-content .title .bee {
+    width: 80px;
+    height: 55px;
+    background-size: 80px auto;
+  }
+  .main-section .main-content .title .bee .honey {
+    margin-left: 95px;
+  }
+  .main-section .main-content .title .panel {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin: 0;
+    margin-top: 20px;
+  }
+  .main-section .main-content .title .panel button {
+    width: 65px;
+    height: 35px;
+    font-size: 8px;
+  }
+  .main-section .main-content .honey-bottle {
+    width: 220px;
+    height: 210px;
+    background-size: 220px auto;
+  }
+  .shops {
+    max-width: 350px;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+  .shops .shops-title {
+    font-size: 35px;
+    line-height: 100%;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  .shops .shop-links {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+  }
+  .shops .shop-links a {
+    margin-bottom: 10px;
+  }
+  .content {
+    max-width: 500px;
+    margin-top: 50px;
+  }
+  .content .block {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .content .block .image {
+    width: 300px;
+    height: 280px;
+    background-size: 300px auto;
+  }
+  .content .block .second-image {
+    width: 300px;
+    height: 300px;
+    background-size: 300px auto;
+  }
+  .content .block .text {
+    width: 200px;
+    text-align: center;
+  }
+  .content .block .text .content-title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 145%;
+    margin-bottom: 20px;
+  }
+  .content .block .text .content-text {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 160%;
+    margin-bottom: 40px;
+  }
+  .content .block .text .content-btn {
+    margin-bottom: 50px;
+  }
+  .our-products {
+    max-width: 360px;
+    margin: 0 auto;
+  }
+  .our-products .product-title {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .our-products .product-title a {
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+  .our-products .product-title p {
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+  .our-products .product {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .our-products .product .product-card {
+    width: 360px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .our-products .product .product-card .about-product {
+    margin: 0 auto;
+    text-align: center;
+  }
+  .our-products .product .product-card .about-product button {
+    width: 130px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  .our-products .product .product-card .first-img {
+    margin: 0 auto;
+    background-position: center;
+  }
+  .our-products .product .product-card .second-img {
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}
+
+@media (max-width: 767px) {
+  header {
+    display: block;
+    text-align: center;
+  }
+  header .logo {
+    margin: 0;
+  }
+  header .logo .burger {
+    position: relative;
+    display: block;
+    width: 25px;
+    height: 25px;
+    border-radius: 50px;
+    border: 2px solid #FFA234;
+  }
+  header .logo .burger span,
+  header .logo .burger::before,
+  header .logo .burger::after {
+    position: absolute;
+    left: 3px;
+    top: 15px;
+    width: 15px;
+    height: 1px;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    background-color: #FFA234;
+  }
+  header .logo .burger::before,
+  header .logo .burger::after {
+    content: '';
+  }
+  header .logo .burger::before {
+    top: 5px;
+  }
+  header .logo .burger::after {
+    bottom: 0;
+  }
+  header .logo .burger span {
+    top: 50%;
+  }
+  header .logo .burger.active span {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  }
+  header .logo .burger.active::before {
+    -webkit-transform: rotate(-45deg) translate(-4px, 3px);
+            transform: rotate(-45deg) translate(-4px, 3px);
+  }
+  header .logo .burger.active::after {
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+    -webkit-transform: rotate(45deg) translate(-4px, -3px);
+            transform: rotate(45deg) translate(-4px, -3px);
+  }
+  header .menu {
+    display: none;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  header .menu a {
+    margin: 0;
+  }
+  header .menu.active {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .main-section {
+    max-width: 360px;
+    padding-top: 50px;
+    padding-bottom: 25px;
+  }
+  .main-section .main-substrate .substrate {
+    width: 300px;
+    height: 220px;
+    background-size: 290px auto;
+  }
+  .main-section .main-substrate .honey-small-pic {
+    width: 80px;
+    height: 130px;
+    background-size: 60px auto;
+  }
+  .main-section .main-content {
+    margin-top: -195px;
+  }
+  .main-section .main-content .title {
+    font-size: 20px;
+    line-height: 25px;
+    margin-left: 95px;
+  }
+  .main-section .main-content .title .finger {
+    margin: 0;
+  }
+  .main-section .main-content .title .licking {
+    margin-left: 20px;
+  }
+  .main-section .main-content .title .bee {
+    width: 55px;
+    height: 40px;
+    background-size: 55px auto;
+  }
+  .main-section .main-content .title .bee .honey {
+    margin-left: 65px;
+  }
+  .main-section .main-content .title .panel {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin: 0;
+    margin-top: 20px;
+  }
+  .main-section .main-content .title .panel button {
+    width: 40px;
+    height: 25px;
+    font-size: 5px;
+  }
+  .main-section .main-content .honey-bottle {
+    width: 135px;
+    height: 135px;
+    background-size: 135px auto;
+  }
+  .shops .shops-title {
+    font-size: 25px;
+  }
+  .shops .shop-links .luxotica img {
+    width: 80px;
+    height: 19px;
+  }
+  .shops .shop-links .miu-miu img {
+    width: 100px;
+    height: 19px;
+  }
+  .shops .shop-links .dunkin img {
+    width: 100px;
+    height: 19px;
+  }
+  .shops .shop-links .burberry img {
+    width: 140px;
+    height: 19px;
+  }
+  .register-form {
+    max-width: 360px;
+  }
+  .register-form .form-title {
+    font-size: 35px;
+  }
+  footer .footer-frame {
+    width: 360px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  footer .black-logo {
+    margin: 0;
+    margin-bottom: 20px;
+  }
+  footer .social {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  footer .footer-text {
+    margin: 0;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+}
+/*# sourceMappingURL=main.css.map */
