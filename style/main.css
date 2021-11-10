@@ -92,44 +92,14 @@ header .menu a:hover {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-top: -350px;
-}
-
-.main-section .main-content .title {
-  color: black;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 100px;
-  line-height: 130px;
-  margin-left: 170px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  margin-top: -350px;
 }
 
-.main-section .main-content .title .licking {
-  margin-left: 120px;
-}
-
-.main-section .main-content .title .bee {
-  width: 189px;
-  height: 129px;
-  background-image: url("../img/main_bee.png");
-  background-size: 189px auto;
-  background-repeat: no-repeat;
-  margin: 0;
-  border-bottom: 1px solid black;
-}
-
-.main-section .main-content .title .bee .honey {
-  margin-left: 220px;
-}
-
-.main-section .main-content .title .panel button {
+.main-section .main-content .panel button {
   width: 180px;
   height: 65px;
   background-color: rgba(0, 0, 0, 0);
@@ -139,9 +109,10 @@ header .menu a:hover {
   font-weight: bold;
   font-size: 18px;
   line-height: 160%;
+  margin: 0 10px;
 }
 
-.main-section .main-content .title .panel button:hover {
+.main-section .main-content .panel button:hover {
   background-color: black;
   color: white;
 }
@@ -590,37 +561,14 @@ footer .footer-text {
     background-size: 100px auto;
   }
   .main-section .main-content {
+    text-align: center;
     margin-top: -235px;
   }
-  .main-section .main-content .title {
-    font-size: 55px;
-    line-height: 70px;
-  }
-  .main-section .main-content .title .finger {
-    margin: 0;
-  }
-  .main-section .main-content .title .licking {
-    margin-left: 55px;
-  }
-  .main-section .main-content .title .bee {
-    width: 110px;
-    height: 85px;
-    background-size: 120px auto;
-  }
-  .main-section .main-content .title .bee .honey {
-    margin-left: 130px;
-  }
-  .main-section .main-content .title .panel {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+  .main-section .main-content .panel {
     margin: 0;
     margin-top: 20px;
   }
-  .main-section .main-content .title .panel button {
+  .main-section .main-content .panel button {
     width: 110px;
     height: 40px;
     font-size: 10px;
@@ -1051,40 +999,6 @@ footer .footer-text {
   }
   .main-section .main-content {
     margin-top: -195px;
-  }
-  .main-section .main-content .title {
-    font-size: 20px;
-    line-height: 25px;
-    margin-left: 95px;
-  }
-  .main-section .main-content .title .finger {
-    margin: 0;
-  }
-  .main-section .main-content .title .licking {
-    margin-left: 20px;
-  }
-  .main-section .main-content .title .bee {
-    width: 55px;
-    height: 40px;
-    background-size: 55px auto;
-  }
-  .main-section .main-content .title .bee .honey {
-    margin-left: 65px;
-  }
-  .main-section .main-content .title .panel {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    margin: 0;
-    margin-top: 20px;
-  }
-  .main-section .main-content .title .panel button {
-    width: 40px;
-    height: 25px;
-    font-size: 5px;
   }
   .main-section .main-content .honey-bottle {
     width: 135px;

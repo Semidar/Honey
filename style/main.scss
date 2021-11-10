@@ -69,48 +69,24 @@ header{
     }
     .main-content{
         display: flex;
+        flex-direction: column;
         margin-top: -350px;
-        .title{
-            color: black;
-            font-style: normal;
-            font-weight: bold;
-            font-size: 100px;
-            line-height: 130px;
-            margin-left: 170px;
-            display: flex;
-            flex-direction: column;
-            .licking{
-                margin-left: 120px;
+        .panel{
+            button{
+                width: 180px;
+                height: 65px;
+                background-color: rgba(0, 0, 0, 0);
+                outline: none;
+                border: 2px solid black;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 18px;
+                line-height: 160%;
+                margin: 0 10px;
             }
-
-            .bee{
-                width: 189px;
-                height: 129px;
-                background-image: url('../img/main_bee.png');
-                background-size: 189px auto;
-                background-repeat: no-repeat;
-                margin: 0;
-                border-bottom: 1px solid rgb(0, 0, 0);
-                .honey{
-                    margin-left: 220px;
-                }
-            }
-            .panel{
-                button{
-                    width: 180px;
-                    height: 65px;
-                    background-color: rgba(0, 0, 0, 0);
-                    outline: none;
-                    border: 2px solid black;
-                    font-style: normal;
-                    font-weight: bold;
-                    font-size: 18px;
-                    line-height: 160%;
-                }
-                button:hover{
-                    background-color: black;
-                    color: white;
-                }
+            button:hover{
+                background-color: black;
+                color: white;
             }
         }
         .honey-bottle{
@@ -497,34 +473,15 @@ footer{
             }
         }
         .main-content{
+            text-align: center;
             margin-top: -235px;
-            .title{
-                font-size: 55px;
-                line-height: 70px;
-                .finger{
-                    margin: 0;
-                }
-                .licking{
-                    margin-left: 55px;
-                }
-                .bee{
+            .panel{
+                margin: 0;
+                margin-top: 20px;
+                button{
                     width: 110px;
-                    height: 85px;
-                    background-size: 120px auto;
-                    .honey{
-                        margin-left: 130px;
-                    }
-                }
-                .panel{
-                    display: flex;
-                    justify-content: space-between;
-                    margin: 0;
-                    margin-top: 20px;
-                    button{
-                        width: 110px;
-                        height: 40px;
-                        font-size: 10px;
-                    }
+                    height: 40px;
+                    font-size: 10px;
                 }
             }
             .honey-bottle{
@@ -943,36 +900,7 @@ footer{
         }
         .main-content{
             margin-top: -195px;
-            .title{
-                font-size: 20px;
-                line-height: 25px;
-                margin-left: 95px;
-                .finger{
-                    margin: 0;
-                }
-                .licking{
-                    margin-left: 20px;
-                }
-                .bee{
-                    width: 55px;
-                    height: 40px;
-                    background-size: 55px auto;
-                    .honey{
-                        margin-left: 65px;
-                    }
-                }
-                .panel{
-                    display: flex;
-                    justify-content: space-between;
-                    margin: 0;
-                    margin-top: 20px;
-                    button{
-                        width: 40px;
-                        height: 25px;
-                        font-size: 5px;
-                    }
-                }
-            }
+            
             .honey-bottle{
                 width: 135px;
                 height: 135px;
